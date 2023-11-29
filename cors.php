@@ -18,3 +18,17 @@ if ($method == "OPTIONS") {
     die();
 }
 
+// Resto del código para manejar las solicitudes reales (GET, POST, etc.)
+// ...
+
+// Ejemplo adicional: Manejar una solicitud GET
+if ($method == "GET") {
+    // Código para manejar la solicitud GET
+    // ...
+    // Puedes agregar más lógica aquí según tus necesidades
+    // ...
+    // Ejemplo de respuesta JSON
+    $response = array('status' => 'success', 'message' => 'Solicitud GET recibida correctamente');
+    echo json_encode($response);
+}
+?>
